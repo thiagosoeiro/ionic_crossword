@@ -1,0 +1,10 @@
+﻿<ion-view view-title="Temas">
+    <ion-content>
+        Olá, seja bem vindo!! <br /> O que deseja jogar hoje?
+        <ion-list>
+            <ion-item ng-repeat="tema in temas" href="#/app/tabuleiro">
+                {{tema.nome}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

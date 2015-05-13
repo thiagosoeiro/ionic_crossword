@@ -1,0 +1,6 @@
+﻿.background {
+    background-image: url('../images/bg_01.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}

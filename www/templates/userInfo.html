@@ -1,0 +1,30 @@
+﻿<ion-nav-bar class="bar-header bar-assertive">
+    <ion-nav-back-button class="button-icon ion-arrow-left-c"
+                         ng-click="goBack()">
+    </ion-nav-back-button>
+</ion-nav-bar>
+<ion-view title="Perfil">
+    <ion-content class="has-header">
+        <div class="list card">
+            <div class="item">
+               
+                <div style="float:left; width:50%; height:auto">
+                    <h2>{{user.name}}</h2>
+                    <p>{{user.email}}</p>
+                </div>
+                <div style="float:left; width:50%; height:auto;">
+                    <button class="button button-block button-positive" ng-click="share()" >
+                        <i class="icon ion-share"></i>Compartilhar
+                    </button>
+                </div>
+            </div>
+            <div class="item item-body" style="text-align:center; align-items:center;">
+                <img />
+            </div>
+            <!--Foi transferido para o menu-->
+            <!--<a class="button button-block button-icon" ng-click="logout()">
+                sair
+            </a>-->
+        </div>
+    </ion-content>
+</ion-view>
